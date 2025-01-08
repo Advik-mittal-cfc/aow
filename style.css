@@ -1,0 +1,195 @@
+/* General body styling */
+body {  
+    background-color: #2a1d1d; /* Mars-themed dark reddish background */
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #f4e6d8; /* Lighter, muted beige for text */
+    background-image: url('images/background.png'); /* Path to your background image */
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center; /* Centers the background image */
+    background-attachment: fixed; /* Keeps the image fixed while scrolling */
+    background-repeat: no-repeat; /* Prevents repeating of the image */
+  }
+  
+  /* Header styling */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #402c2c; /* Muted reddish header */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
+  }
+  
+  header h1 {
+    font-size: 1.8rem;
+    color: #f9d5a7; /* Slightly brighter highlight for title */
+  }
+  
+  nav {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;
+    color: #f4e6d8;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    background-color: #f4e6d8;
+    color: #402c2c;
+    border-color: #f4e6d8;
+    border-radius: 5px;
+  }
+  
+  /* Main content styling */
+  main {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  main h2 {
+    font-size: 2rem;
+    color: #f9d5a7;
+  }
+  
+  main p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    color: #f4e6d8;
+  }
+  
+  /* General button styling */
+  button {
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #402c2c;
+    background-color: #f4e6d8;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    margin: 0.5rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Specific button colors */
+  button.windows {
+    background-color: #4a90e2; /* Windows blue */
+    color: white;
+  }
+  
+  button.mac {
+    background-color: #555555; /* Mac gray */
+    color: white;
+  }
+  
+  button.linux {
+    background-color: #f5a623; /* Linux orange */
+    color: white;
+  }
+  
+  /* Hover effect for all buttons */
+  button:hover {
+    transform: translateY(-4px);
+    background-color: #f9d5a7; /* Slightly lighter shade */
+    color: #402c2c;
+    border-color: #f9d5a7;
+  }
+  
+  /* Contact form styling */
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #f9d5a7;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #f9d5a7;
+    border-radius: 5px;
+    background-color: #402c2c;
+    color: #f4e6d8;
+  }
+  
+  form button {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Footer (if you add one in the future) */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #402c2c;
+    color: #f4e6d8;
+    font-size: 0.9rem;
+  }
+/* Section Styling */
+section {
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  #highlights {
+    background-color: #402c2c;
+    padding: 3rem;
+    border-radius: 10px;
+    color: #f9d5a7;
+  }
+  
+  .features-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .features-grid div {
+    max-width: 300px;
+    text-align: center;
+    padding: 1rem;
+    background-color: #2a1d1d;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .features-grid h3 {
+    color: #f4e6d8;
+  }
+  
+  /* Gallery Styling */
+  .image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .image-gallery img {
+    max-width: 200px;
+    border: 3px solid #f9d5a7;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .image-gallery img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+  }
+    
